@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-coming soon
+[live link](https://quotes40042.netlify.app/)
 
 ## Built With
 
