@@ -12,6 +12,7 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #5372F0;
+  padding: 0px 20px;
 }
 .wrapper{
   width: 605px;
