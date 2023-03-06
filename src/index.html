@@ -1,43 +1,41 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="Quote Generator can make a  random quote and allows you to tweet it"
-    />
-    <meta name="keywords" content="Quote Generator" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Quote Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-
-    <title>Quote Generator</title>
   </head>
   <body>
-    <div class="container">
-      <h1>
-        <i class="fas fa-quote-left"></i>
-        <span class="quote" id="quote"></span>
-        <i class="fas fa-quote-right"></i>
-      </h1>
-      <p class="author" id="author"></p>
-
-      <hr />
+    <div class="wrapper">
+      <header>Quote of the Day</header>
+      <div class="content">
+        <div class="quote-area">
+          <i class="fas fa-quote-left"></i>
+          <p class="quote">
+            Never give up because you never know if the next try is going to be
+            the one that works.
+          </p>
+          <i class="fas fa-quote-right"></i>
+        </div>
+        <div class="author">
+          <span>__</span>
+          <span class="name">Mary Kay Ash</span>
+        </div>
+      </div>
       <div class="buttons">
-        <a
-          class="twitter"
-          id="tweet"
-          data-size="large"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fab fa-twitter"></i
-        ></a>
-
-        <button class="next">Next quote</button>
+        <div class="features">
+          <ul>
+            <li class="speech"><i class="fas fa-volume-up"></i></li>
+            <li class="copy"><i class="fas fa-copy"></i></li>
+            <li class="twitter"><i class="fab fa-twitter"></i></li>
+          </ul>
+          <button>New Quote</button>
+        </div>
       </div>
     </div>
   </body>
