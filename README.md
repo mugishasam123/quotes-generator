@@ -2,7 +2,7 @@
 
 # Quote-gen
 
-> Quote-gen is an app that allows you to generate random quotes and allows you to  change them to tweets.
+> Quote-gen is an app that allows you to generate random quotes and allows you to  change them to tweets .
 
 <br/>![Screenshot from 2023-03-06 16-34-53](https://user-images.githubusercontent.com/90524466/223140860-a9578050-cbfa-4991-ab56-950aed18f084.png)
 
